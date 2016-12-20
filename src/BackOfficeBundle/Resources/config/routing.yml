@@ -1,0 +1,9 @@
+back_office_homepage:
+    path:     /
+    defaults: { _controller: BackOfficeBundle:Index:index }
+back_office_list_last_product:
+    path:     /last_product
+    defaults: { _controller: BackOfficeBundle:Index:lastProduct }
+back_office_create_product:
+    path:     /create_product
+    defaults: { _controller: BackOfficeBundle:Index:createProduct }
